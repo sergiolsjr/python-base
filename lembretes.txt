@@ -1,0 +1,2 @@
+--> Instalar o git delta para melhorar o diff
+    https://github.com/dandavison/delta
