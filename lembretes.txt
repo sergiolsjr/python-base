@@ -1,2 +1,15 @@
 --> Instalar o git delta para melhorar o diff
     https://github.com/dandavison/delta
+
+--> Git com editor favorito
+    git config --global core.editor "micro"
+
+--> Settings do vscode
+    {
+    "editor.mouseWheelZoom": true,
+            "editor.rulers": [
+                80
+            ],
+            "terminal.integrated.env.linux": {},
+            "terminal.integrated.rendererType": "dom",
+}
