@@ -1,4 +1,6 @@
 --> Settings do vscode
+    - Abra o arquivo settings.json em sua-home/.config/VSCode/User e adicione essa linha:
+
     {
     "editor.mouseWheelZoom": true,
             "editor.rulers": [
@@ -11,3 +13,5 @@
 --> Ambiente virtual para python
     - python3 -m venv .venv
     - source .venv/bin/activate
+    - python -m pip install --upgrade pip
+    - python -m pip install ipython
