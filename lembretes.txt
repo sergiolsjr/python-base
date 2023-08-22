@@ -1,13 +1,13 @@
 --> Settings do vscode
     - Abra o arquivo settings.json em sua-home/.config/VSCode/User e adicione essa linha:
 
-    {
+{
     "editor.mouseWheelZoom": true,
-            "editor.rulers": [
+        "editor.rulers": [
                 80
-            ],
-            "terminal.integrated.env.linux": {},
-            "terminal.integrated.rendererType": "dom",
+        ],
+    "editor.minimap.enabled": false,
+    "terminal.integrated.shell.osx": "/usr/bin/zsh",
 }
 
 --> Ambiente virtual para python
