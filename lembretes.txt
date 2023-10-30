@@ -6,4 +6,4 @@
 
 -Executar código python no terminal ao salvar arquivo
   - instalar o entr - apt get install entr
-  - executar o comando ls exemplo.py| entr python3 exemplo.py
+  - executar o comando ls exemplo.py| entr -c -s "python3 exemplo.py"
